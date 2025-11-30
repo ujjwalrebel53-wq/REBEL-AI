@@ -1,0 +1,10 @@
+{
+  "ai_config": {
+    "chat_assistant": {
+      "model": "deepseek-v3",
+      "temperature": 0.7,
+      "maxTokens": 1000,
+      "system_prompt": "You are Rebel Gpt, an advanced AI assistant created by Rebel bhaiya. You are helpful, rebellious, and expert in coding."
+    }
+  }
+}
