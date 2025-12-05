@@ -164,8 +164,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       const openai = window.aiSdk.openai.createOpenAI({
-        baseURL: 'https://api.youware.com/public/v1/ai',
-        apiKey: 'sk-YOUWARE'
+        baseURL: 'https://api.groq.com/openai/v1,
+        apiKey: 'cmise9y3w0006ji04u8p6utta'
       });
 
       const { text } = await window.aiSdk.ai.generateText({
@@ -259,3 +259,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
